@@ -1,0 +1,187 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 29 17:01:50 2025
+# Process ID: 25152
+# Current directory: C:/Users/QADEER KHAN/7_segment_display_OG
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25912 C:\Users\QADEER KHAN\7_segment_display_OG\7_segment_display_OG.xpr
+# Log file: C:/Users/QADEER KHAN/7_segment_display_OG/vivado.log
+# Journal file: C:/Users/QADEER KHAN/7_segment_display_OG\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:01:17 . Memory (MB): peak = 753.215 ; gain = 159.762
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'display_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj display_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.srcs/sim_1/new/display_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display_tb
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 782.043 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.sim/sim_1/behav/xsim'
+"xelab -wto 65f3f214019c4d50be1e8f71f3519c74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot display_tb_behav xil_defaultlib.display_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65f3f214019c4d50be1e8f71f3519c74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot display_tb_behav xil_defaultlib.display_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.display_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot display_tb_behav
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 782.043 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "display_tb_behav -key {Behavioral:sim_1:Functional:display_tb} -tclbatch {display_tb.tcl} -view {{C:/Users/QADEER KHAN/7_segment_display_OG/display_tb_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config {C:/Users/QADEER KHAN/7_segment_display_OG/display_tb_behav.wcfg}
+source display_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ time   a b c d e f g  dp  an3 an2 an1 an0  |  val3 val2 val1 val0  dots
+                5000  1 1 1 1 1 1 1   1    1   1   1   1   |    3    2    1    0    0000
+               15000  1 1 1 1 1 1 1   1    1   1   1   1   |    3    2    1    0    0000
+               25000  1 1 1 1 1 1 1   1    1   1   1   1   |    3    2    1    0    0000
+               35000  1 1 1 1 1 1 1   1    1   1   1   1   |    3    2    1    0    0000
+               45000  1 1 1 1 1 1 1   1    1   1   1   1   |    3    2    1    0    0000
+               55000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+               65000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+               75000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+               85000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+               95000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              105000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              115000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              125000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              135000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              145000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              155000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              165000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              175000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              185000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              195000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              205000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              215000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              225000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              235000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              245000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              255000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              265000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              275000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              285000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              295000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              305000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              315000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              325000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              335000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              345000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              355000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              365000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              375000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              385000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              395000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              405000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              415000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              425000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              435000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              445000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              455000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              465000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              475000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              485000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              495000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              505000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              515000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              525000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              535000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              545000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              555000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              565000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              575000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              585000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              595000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              605000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              615000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              625000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              635000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              645000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              655000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              665000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              675000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              685000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              695000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              705000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              715000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              725000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              735000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              745000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              755000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              765000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              775000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              785000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              795000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              805000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              815000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              825000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              835000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              845000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              855000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              865000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              875000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              885000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              895000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              905000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              915000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              925000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              935000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              945000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              955000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              965000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              975000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              985000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+              995000  0 0 0 0 0 0 1   1    1   1   1   0   |    3    2    1    0    0000
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 808.961 ; gain = 23.754
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'display_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:43 . Memory (MB): peak = 808.961 ; gain = 26.918
+save_wave_config {C:/Users/QADEER KHAN/7_segment_display_OG/display_tb_behav.wcfg}
+reset_run synth_2
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.runs/synth_2
+
+launch_runs impl_2 -jobs 2
+[Wed Oct 29 17:37:37 2025] Launched synth_2...
+Run output will be captured here: C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.runs/synth_2/runme.log
+[Wed Oct 29 17:37:37 2025] Launched impl_2...
+Run output will be captured here: C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.runs/impl_2/runme.log

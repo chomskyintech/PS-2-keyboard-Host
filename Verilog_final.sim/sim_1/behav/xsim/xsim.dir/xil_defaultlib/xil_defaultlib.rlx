@@ -1,0 +1,17 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/QADEER KHAN/Documents/MSc Embedded/IC design lab/final_assign/Assignment_tools/l5_tools/fifo_16x8.v,1106625556,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/fsm.v,,fifo_16x8,,,,,,,,
+C:/Users/QADEER KHAN/Documents/MSc Embedded/IC design lab/final_assign/Assignment_tools/l5_tools/keyboard.v,1768306609,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/music_proj.srcs/sources_1/new/pcm.v,,keyboard,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sim_1/new/top_ps2_pcm_tb.v,1768515390,verilog,,,,top_ps2_pcm_tb,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/fsm.v,1768483710,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/kbd_fifo_reader.v,,fsm,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/kbd_fifo_reader.v,1768485450,verilog,,C:/Users/QADEER KHAN/Documents/MSc Embedded/IC design lab/final_assign/Assignment_tools/l5_tools/keyboard.v,,kbd_fifo_reader,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/ps2_make_decoder.v,1768485383,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/l3_tools/audio/rom.v,,ps2_make_decoder,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/top_ps2_pcm.v,1768494360,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sim_1/new/top_ps2_pcm_tb.v,,top_ps2_pcm,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/l3_tools/audio/rom.v,1105070248,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/music_proj.srcs/sources_1/new/seq.v,,rom,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/l3_tools/dac.v,1105067708,verilog,,C:/Users/QADEER KHAN/Downloads/7_segment_display_OG/7_segment_display_OG/7_segment_display_OG.srcs/sources_1/new/display.v,,dac,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/music_proj.srcs/sources_1/new/pcm.v,1762690413,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/ps2_make_decoder.v,,pcm,,,,,,,,
+C:/Users/QADEER KHAN/Documents/Verilog_final/music_proj/music_proj.srcs/sources_1/new/seq.v,1768485058,verilog,,C:/Users/QADEER KHAN/Documents/Verilog_final/Verilog_final.srcs/sources_1/new/top_ps2_pcm.v,,seq,,,,,,,,
+C:/Users/QADEER KHAN/Downloads/7_segment_display_OG/7_segment_display_OG/7_segment_display_OG.srcs/sources_1/new/display.v,1761739705,verilog,,C:/Users/QADEER KHAN/Documents/MSc Embedded/IC design lab/final_assign/Assignment_tools/l5_tools/fifo_16x8.v,,display,,,,,,,,

@@ -1,0 +1,162 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 13924
+License: Customer
+
+Current time: 	Wed Oct 29 23:51:37 PKT 2025
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 20 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/vivado/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	D:/vivado/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	QADEER KHAN
+User home directory: C:/Users/QADEER KHAN
+User working directory: C:/Users/QADEER KHAN/7_segment_display_OG
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2019.1
+RDI_DATADIR: D:/vivado/Vivado/2019.1/data
+RDI_BINDIR: D:/vivado/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/QADEER KHAN/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/QADEER KHAN/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/QADEER KHAN/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/QADEER KHAN/7_segment_display_OG/vivado.log
+Vivado journal file location: 	C:/Users/QADEER KHAN/7_segment_display_OG/vivado.jou
+Engine tmp dir: 	C:/Users/QADEER KHAN/7_segment_display_OG/.Xil/Vivado-13924-DESKTOP-02UOHRI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: D:/vivado/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/vivado/Vivado/2019.1
+XILINX_SDK: D:/vivado/SDK/2019.1
+XILINX_VIVADO: D:/vivado/Vivado/2019.1
+XILINX_VIVADO_HLS: D:/vivado/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 551 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 100 MB (+102889kb) [00:00:49]
+// [Engine Memory]: 547 MB (+421816kb) [00:00:49]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\QADEER KHAN\7_segment_display_OG\7_segment_display_OG.xpr. Version: Vivado v2019.1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1168 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 724ms to process. Increasing delay to 4000 ms.
+// Tcl Message: open_project {C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 554 MB. GUI used memory: 44 MB. Current time: 10/29/25, 11:51:39 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 619 MB. GUI used memory: 43 MB. Current time: 10/29/25, 11:51:54 PM PKT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 682 MB (+113333kb) [00:01:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  7311 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 49 MB. Current time: 10/29/25, 11:52:26 PM PKT
+// [Engine Memory]: 728 MB (+12577kb) [00:01:41]
+// Project name: 7_segment_display_OG; location: C:/Users/QADEER KHAN/7_segment_display_OG; part: xc7a35ticsg324-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:51 . Memory (MB): peak = 757.438 ; gain = 173.559 
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (display.v) elapsed time: 0.3s
+// Elapsed time: 200 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display (display.v)]", 1, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display (display.v)]", 1, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 3 seconds
+// Elapsed time: 21 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cl)
+// [GUI Memory]: 108 MB (+2682kb) [00:05:37]
+// Elapsed time: 11 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aK (aH, cl)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2_synth_synthesis_report_0 ;  ;  ; Wed Oct 29 17:42:28 PKT 2025 ; 18542", 3, "synth_2_synth_synthesis_report_0", 0, false); // O (O, cl)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2_synth_synthesis_report_0 ;  ;  ; Wed Oct 29 17:42:28 PKT 2025 ; 18542", 3); // O (O, cl)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2_synth_synthesis_report_0 ;  ;  ; Wed Oct 29 17:42:28 PKT 2025 ; 18542", 3, "synth_2_synth_synthesis_report_0", 0, false, false, false, false, false, true); // O (O, cl) - Double Click
+floatFrame(PAResourceOtoP.PAViews_PAR_REPORT, "synth_2_synth_synthesis_report_0 - synth_2"); // az (aK, cl)
+// PAResourceOtoP.PAViews_PAR_REPORT: PAR Report: float view
+// Elapsed time: 62 seconds
+dockFrame(PAResourceOtoP.PAViews_PAR_REPORT, "synth_2_synth_synthesis_report_0 - synth_2"); // az (aK, aM)
+// PAResourceOtoP.PAViews_PAR_REPORT: PAR Report: dock view
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2_synth_report_utilization_0 ; report_utilization ;  ; Wed Oct 29 17:42:27 PKT 2025 ; 6886", 2, "synth_2_synth_report_utilization_0", 0, false); // O (O, cl)
+expandTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2_synth_report_utilization_0 ; report_utilization ;  ; Wed Oct 29 17:42:27 PKT 2025 ; 6886", 2); // O (O, cl)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2_synth_report_utilization_0 ; report_utilization ;  ; Wed Oct 29 17:42:27 PKT 2025 ; 6886", 2, "synth_2_synth_report_utilization_0", 0, false, false, false, false, false, true); // O (O, cl) - Double Click
+floatFrame(PAResourceOtoP.PAViews_PAR_REPORT, "synth_2_synth_report_utilization_0 - synth_2"); // az (aK, cl)
+// PAResourceOtoP.PAViews_PAR_REPORT: PAR Report: float view
+// Elapsed time: 119 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display.v", 1); // k (j, cl)
+selectCodeEditor("display.v", 0, 7); // cl (w, cl)
+typeControlKey((HResource) null, "display.v", 'c'); // cl (w, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1030 ms.
+// Elapsed time: 174 seconds
+typeControlKey((HResource) null, "display.v", 'c'); // cl (w, cl)
+// Elapsed time: 859 seconds
+selectCodeEditor("display.v", 319, 154); // cl (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, display_tb (display_tb.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("display_tb.v", 0, 9); // cl (w, cl)
+typeControlKey((HResource) null, "display_tb.v", 'c'); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 764 MB. GUI used memory: 54 MB. Current time: 10/30/25, 12:22:29 AM PKT

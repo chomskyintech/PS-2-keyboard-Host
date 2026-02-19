@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 29 17:01:50 2025
+# Process ID: 25152
+# Current directory: C:/Users/QADEER KHAN/7_segment_display_OG
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25912 C:\Users\QADEER KHAN\7_segment_display_OG\7_segment_display_OG.xpr
+# Log file: C:/Users/QADEER KHAN/7_segment_display_OG/vivado.log
+# Journal file: C:/Users/QADEER KHAN/7_segment_display_OG\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/QADEER KHAN/7_segment_display_OG/7_segment_display_OG.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/QADEER KHAN/7_segment_display_OG/display_tb_behav.wcfg}
+source display_tb.tcl
+save_wave_config {C:/Users/QADEER KHAN/7_segment_display_OG/display_tb_behav.wcfg}
+reset_run synth_2
+launch_runs impl_2 -jobs 2
+wait_on_run impl_2
