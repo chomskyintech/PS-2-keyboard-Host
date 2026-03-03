@@ -114,7 +114,7 @@ module top_ps2_pcm (
         // Third digit shows FIFO status
         .val2(fifo_stat),        // digit 2 (third digit)
 
-        // Fourth digit: keep 0 (or change if you want)
+        // Fourth digit: keep 0
         .val3(4'h0),
 
         .dot0(1'b0),
